@@ -1,0 +1,55 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow">
+    <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+      <div class="relative flex items-center justify-between h-16">
+        <div class="flex-shrink-0">
+          <a href="#" class="text-xl font-bold">Restaurant Name</a>
+        </div>
+        <div class="flex space-x-4">
+          <a href="#" class="text-gray-700 hover:text-blue-500">Home</a>
+          <a href="#" class="text-gray-700 hover:text-blue-500">Menu</a>
+          <a href="#" class="text-gray-700 hover:text-blue-500">About Us</a>
+          <a href="#" class="text-gray-700 hover:text-blue-500">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <div class="max-w-7xl mx-auto py-10">
+    <h2 class="text-3xl font-bold mb-4">About Us</h2>
+    <p class="text-lg text-gray-600">Welcome to our restaurant! We offer the finest dishes made with fresh ingredients.</p>
+  </div>
+
+  <!-- Menu Section -->
+  <div class="max-w-7xl mx-auto py-10">
+    <h2 class="text-3xl font-bold mb-4">Our Menu</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <div class="border rounded-lg p-4">
+        <img src="dish1.jpg" alt="Dish 1" class="w-full h-48 object-cover rounded-lg mb-4">
+        <h5 class="text-xl font-bold">Dish 1</h5>
+        <p class="text-gray-600">A delicious meal.</p>
+      </div>
+      <div class="border rounded-lg p-4">
+        <img src="dish2.jpg" alt="Dish 2" class="w-full h-48 object-cover rounded-lg mb-4">
+        <h5 class="text-xl font-bold">Dish 2</h5>
+        <p class="text-gray-600">A tasty treat.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-white text-center py-4">
+    <p>Contact Us: (555) 555-5555 | Address: 123 Restaurant St.</p>
+  </footer>
+
+</body>
+</html>
