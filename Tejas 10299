@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">BlogVlog</a>
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Intrest</a></li>
+        </ul>
+        <form class="form-inline">
+            <input class="form-control" type="search" placeholder="Search">
+            <button class="btn btn-outline-warning" type="submit">Search</button>
+        </form>
+    </div>
+</header>
+
+<section class="container my-4 ">
+    <h2 class="text-center text-dark">Featured Posts</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="card outline">
+                <img src="featured1.jpg" class="card-img-top" alt="Featured Post 1">
+                <div class="card-body
+                
+                ">
+                    <h5 class="card-title">Post 1</h5>
+                    <p class="card-text">Hey Whasapp My name is Tejas Kumat.I Love Playing Cricket..</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+ 
+    </div>
+</section>
+
+<section class="container my-4">
+    <h2 class="text-center text-dark">Recent Posts</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="post1.jpg" class="card-img-top" alt="Featured Post 2">
+                <div class="card-body">
+                    <h5 class="card-title">Post 2</h5>
+                    <p class="card-text">I am Pappu Pager.My friend name is Gulab Khatri..</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+<footer class="bg-dark text-center text-light p-3">
+    <p>&copy; 2024 by Tejas Kumat.</p>
+    <div>
+        <a href="#" class="btn btn-outline-dark btn-sm">Instagram</a>
+        <a href="#" class="btn btn-outline-dark btn-sm">Facebook</a>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
