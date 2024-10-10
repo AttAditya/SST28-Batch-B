@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+         body {
+      font-family: Arial, sans-serif;
+      background-color: rgb(33, 33, 33);
+      margin: 0;
+      padding: 0;
+    }
+    .card {
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(247, 8, 8, 0.1);
+      transition: transform 0.3s;
+      background-color: grey ;
+    }
+    .card:hover {
+      transform: scale3d(1.1, 1.1, 1.1)
+    }
+    .card-title {
+      font-size: 1.5em;
+      font-weight: bold;
+      color: red;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+    }
+    .list-unstyled.mt-3.mb-4{
+        color: white;
+    }
+
+    .card-price {
+      font-size: 2em;
+      color: white;
+    }
+    .btn-primary {
+      border-radius: 25px;
+      background-color: #007bff;
+      border: none;
+      transition: background-color 0.3s;
+    }
+    .btn-primary:hover {
+      background-color:aqua;
+      color: black ;
+    }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <h5 class="card-title"><u>Basic Plan</u></h5>
+                    <h6 class="card-price">$8.00/month</h6>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li><b>More than 1 lakh movies and TV shows</b></li>
+                      <li><b> Ad breaks</b></li>
+                      <li><b>Enjoy in 720p</b></li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="btn btn-primary btn-block">Sign Up</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <h5 class="card-title"><u>Plus Plan</u></h5>
+                    <h6 class="card-price">$15.00/month</h6>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li><b>More than 3 lakh movies and TV shows</b></li>
+                      <li><b>Few ad breaks</b></li>
+                      <li><b>Enjoy in 1080p</b></li>
+                    </ul>
+                  </div>
+                  <div class="card-footer">
+                    <a href="#" class="btn btn-primary btn-block">Sign Up</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <h5 class="card-title"><u>Pro Plan</u></h5>
+                    <h6 class="card-price">$25.00/month</h6>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li><b>More than 5  lakh movies and TV shows</b></li>
+                      <li><b>No ad breaks</b></li>
+                      <li><b>Enjoy in full hd 1440p</b></li>
+                    </ul>
+                  </div>
+                  <div class="card-footer">
+                    <a href="#" class="btn btn-primary btn-block">Sign Up</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+</body>
+</html>
