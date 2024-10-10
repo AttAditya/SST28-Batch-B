@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+- CTA
+    - CTA Details
+        - CTA Heading
+        - CTA Info
+    - CTA Actions
+        - CTA Button
+ */
+
+.left-right {
+    display: flex;
+}
+
+.top-bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.space {
+    padding: 1rem;
+}
+
+.text-white {
+    color: #FFFFFF;
+}
+
+.cta {
+    background-color: #5728AA;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cta-details {
+}
+
+.cta-heading {
+    font-size: 1.5rem;
+}
+
+.cta-info {
+}
+
+.cta-actions {
+}
+
+.cta-button {
+    background-color: #53daff;
+}
+
