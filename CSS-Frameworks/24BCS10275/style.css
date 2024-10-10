@@ -1,0 +1,57 @@
+
+body {
+    font-family: Arial;
+}
+
+.nav-simple {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-link:hover {
+    color: darkblue;
+}
+
+
+section {
+    padding: 20px;
+    background-color: black;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+form {
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 10px;
+}
