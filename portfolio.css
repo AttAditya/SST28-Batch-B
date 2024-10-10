@@ -1,0 +1,10 @@
+.portfolio-name{
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+    justify-content: center;
+}
+ul{
+    list-style-type: none;
+
+}
