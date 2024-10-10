@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tanishq Website</title>
+
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-red-500">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand fs-5" href="#">ZOMATO</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Our Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#location">Location</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header
+      class="text-center py-20 bg-cover bg-center"
+      style="
+        background-image: url('https://source.unsplash.com/1600x900/?restaurant');
+      "
+    ><div style="color: black;">
+      <h1 class="text-5xl font-bold text-white" style="color: black;">Welcome to Our Restaurant</h1>
+      <p class="text-white mt-4" style="color: rgb(0, 0, 0);">
+        Delicious food, great ambiance, and the best service.
+      </p>
+    </div>
+    </header>
+
+    <section id="menu" class="py-16 bg-white">
+      <div class="container">
+        <h2 class="text-center text-3xl font-bold mb-10">This is our menu</h2>
+        <div class="row">
+
+          <div class="col-lg-4 mb-4">
+            <div class="card shadow-sm">
+              <img
+                src="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/12/dosa-recipe.jpg"
+                class="card-img-top"
+                alt="Dish 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Dosa</h5>
+                <p class="card-text">
+                 Try dosa
+                </p>
+                <p class="font-bold">$15.99</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card shadow-sm">
+              <img
+                src="https://vaya.in/recipes/wp-content/uploads/2018/02/Idli-and-Sambar-1.jpg"
+                class="card-img-top"
+                alt="Dish 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Idli</h5>
+                <p class="card-text">
+                 try this idli 
+                </p>
+                <p class="font-bold">$12.99</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card shadow-sm">
+              <img
+                src="https://assets.epicurious.com/photos/5609a542e0acd286555db7b6/16:9/w_2336,h_1314,c_limit/352449_hires.jpg"
+                class="card-img-top"
+                alt="Dish 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Chicken Fry</h5>
+                <p class="card-text">
+                  Try this chicken fry 
+                </p>
+                <p class="font-bold">$9.99</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="py-16 bg-red-600">
+      <div class="container">
+        <h2 class="text-center text-3xl font-bold mb-10">About Us</h2>
+        <p class="text-center max-w-2xl mx-auto">
+          Our restaurant has been serving the finest dishes since [year]. We
+          pride ourselves on providing fresh ingredients and an exceptional
+          dining experience. Our chefs are world-class and our staff is
+          dedicated to ensuring you have the best meal possible.
+        </p>
+      </div>
+    </section>
+
+    <section id="location" class="py-16 bg-red">
+      <div class="container text-center">
+        <h2 class="text-3xl font-bold mb-10">Location</h2>
+        <p class="mb-5">123 Delicious St, Food City, Yummyland</p>
+    
+      </div>
+    </section>
+
+    <section id="contact" class="py-16 bg-pink-200">
+      <div class="container text-center">
+        <h2 class="text-3xl font-bold mb-10">Contact Us</h2>
+        <p>
+          For reservations or inquiries call us 
+        </p>
+
+      </div>
+    </section>
+
+    <footer class="bg-blue-900 text-white py-4 text-center">
+      <p>&copy; 2024 Restaurant.</p>
+    </footer>
+  </body>
+</html>
