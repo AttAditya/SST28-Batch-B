@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"> 
+</head>
+<body>
+   
+    <!-- Hero Section -->
+     <section class="hero is-link">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Sup' Guys! I'm Rohan Jangam!!!
+                </h1>
+                <h2 class="subtitle">
+                    Dumb Coder | Empty-Stack Developer | Problem Creator | Tech apathetic
+                </h2>
+            </div>
+        </div>
+     </section>
+
+     <!-- Myself section -->
+      <section class="Aboutme is-primary">
+        <div class="container">
+            <div class="title">
+                About Me!
+            </div>
+            <div class="content">
+              <p>
+                Hello everyone!! I'm Rohan, a freshman at Scaler School of Technology (SST), where I'm diving deep into development and programming languages. I'm passionate about building projects that challenge my skills and push me to learn more every day.
+              </p>
+            </div>
+            <div class="resume">
+                <button class="button is-primary is-outlined">My Resume</button>
+            </div>
+        </div>
+      </section>
+
+      <!--My Skills-->
+      <section class="section">
+        <div class="container">
+            <h2 class="title">
+                My Precious Skills
+            </h2>
+            <div class="columns">
+                <div class="column">
+                    <div class="box">
+                        <h3 class="title is-4">Front-End</h3>
+                        <p>HTML,CSS,JS,React,Bulma</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box">
+                        <h3 class="title is-4">Back-End</h3>
+                        <p>Node.js, Express, Ruby on Rails</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box">
+                        <h3 class="title is-4">Languages</h3>
+                        <p>Java, C++, Python, Kotlin, Go</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box">
+                        <h3 class="title is-4">Tools</h3>
+                        <p>Git, Github, Docker, Kubernetes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!--Projects-->
+
+      <section class="section">
+        <div class="container">
+          <h2 class="title">Projects</h2>
+          <div class="columns is-multiline">
+            <div class="column is-one-third">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="./download (1).jpeg" alt="Project 1">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4">Simple Calculator</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    Description of your first project.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-one-third">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="./download.png" alt="Project 2">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4">Website Cloning</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    Description of your second project.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-one-third">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="./download.jpeg" alt="Project 3">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4">Flappy Bird game using Java</p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    Description of your third project.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+       <!-- Contact Section -->
+
+    <section class="section">
+        <div class="container">
+          <h2 class="title">Contact Me/Lets Connect!</h2>
+          <div class="columns">
+            <div class="column is-half">
+              <form>
+                <div class="field">
+                  <label class="label">Name</label>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="Your Name">
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="label">Email</label>
+                  <div class="control">
+                    <input class="input" type="email" placeholder="Your Email">
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="label">Message</label>
+                  <div class="control">
+                    <textarea class="textarea" placeholder="Your Message"></textarea>
+                  </div>
+                </div>
+                <div class="control">
+                  <button class="button is-primary">Submit karo</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+            <strong>Portfolio</strong> by <a href="#">Rohan Jangam</a>. Powered by TailStrap.
+          </p>
+        </div>
+      </footer>
+
+    
+</body>
+</html>
