@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Table</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .header{
+            text-align: center;
+            color: white;
+        }
+        .header:hover{
+            color: rgb(162, 29, 29);
+            transform: scale(1.5);
+            transition: 1s;
+        }
+        .pricing-table {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            border: 2px solid white;
+            border-radius: 8px;
+        }
+        .column {
+            margin: 10px;
+            padding: 20px;
+            border: 3px solid white;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .column:hover{
+            transform:scale(1.35,1.20);
+            transition: all 2s;
+        }
+        .column:nth-child(1) {
+            background-color: lightblue
+        }
+        .column:nth-child(2) {
+            background-color: lightpink
+        }
+        .column:nth-child(3) {
+            background-color: plum
+        }
+        .plan-name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color:darkblue;
+        }
+        .price {
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+        .features {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        button{
+            padding: 10px;
+            background-color: black;
+            color: white;
+            border-radius: 8px;
+            border-color: white;
+            border-width: 2px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color:darkblue;
+            transform: scale(1.25);
+            transition: all 2s;
+            border-color: black;
+        }
+
+        @media(max-width:780px){
+            .pricing-table{
+                flex-direction: column;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>SaaS Products</h1>
+    </div>
+    <div class="pricing-table">
+        <div class="column">
+            <div class="plan-name">Tier 1 </div>
+            <div class="price">Rs 199/month</div>
+            <ul class="features">
+                <li> 5 Users</li>
+                <li>Basic Support</li>
+                <li>10 GB Storage</li>
+                <br>
+                <button>Buy Now</button>
+            </ul>
+        </div>
+        <div class="column">
+            <div class="plan-name">Tier 2 </div>
+            <div class="price">Rs 299/month</div>
+            <ul class="features">
+                <li> 20 Users</li>
+                <li> Priority Support</li>
+                <li> 50 GB Storage</li>
+                <br>
+                <button>Buy Now</button>
+            </ul>
+        </div>
+        <div class="column">
+            <div class="plan-name">Tier 3 </div>
+            <div class="price">Rs 999/month</div>
+            <ul class="features">
+                <li>Unlimited Users</li>
+                <li>24/7 Support</li>
+                <li>200 GB Storage</li>
+                <br>
+                <button>Buy Now</button>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+
