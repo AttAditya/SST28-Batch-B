@@ -1,0 +1,180 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="UTF-8" > 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" > 
+        <title>YouTube</title> 
+        <style> 
+            nav { 
+                display: flex ; 
+                justify-content: space-between ; 
+            } 
+            .left-side-bar { 
+                display: flex ; 
+            } 
+            .sidebar1 { 
+                margin: 0 ; 
+                height: 7px ; 
+            } 
+            .sidebar2 { 
+                margin: 0 ; 
+                height: 7px ; 
+            } 
+            .sidebar3 { 
+                margin: 0 ; 
+            } 
+            .left-side-bar .side-b { 
+                padding-left: 17px ; 
+                padding-right: 17px ; 
+            } 
+            .youtube { 
+                margin: 0 ; 
+                margin-top: 12px ; 
+                font-size: 19px ; 
+                font-weight: 650 ; 
+                transform: scaleY(1.5 ) scaleX(0.9 ) ; 
+                position: relative ; 
+                animation-name: youanimation ; 
+                animation-duration: 6s ; 
+                animation-iteration-count: 5 ; 
+                animation-fill-mode: backwards ; 
+                animation-delay: 3s ; 
+            } 
+            .youtube-i { 
+                margin: 0 ; 
+                font-size: 12px ; 
+                transform: scaleX(0.9 ) ; 
+            } 
+            .youtube-logo { 
+                padding: 0 0 12px 2px ; 
+                position: relative ; 
+                top: 7px ; 
+            } 
+            .middle-side-bar{ 
+                padding: 0 0 0 2px ; 
+            } 
+            .search{ 
+                display: inline ; 
+            } 
+            .search-image{ 
+                display: inline ; 
+            } 
+            .search-bar{ 
+                padding: 9px ; 
+                position: relative ; 
+                bottom: 37px ; 
+                color: black ; 
+                border-radius: 15px ; 
+                border: solid gray 1px ; 
+                width: 570px ; 
+            } 
+            .image{ 
+                position: relative ; 
+                right: 3px ; 
+                bottom: 7px ;  
+            } 
+            .search-mic-icon{ 
+                display: inline ; 
+                position: relative ; 
+                bottom: 25px ; 
+                right: 7px ; 
+            } 
+            .search-bar:hover{ 
+                border-color: orange ; 
+            } 
+            .Home-w { 
+                font-size: 17px ; 
+                position: relative ; 
+                bottom: 7px ; 
+            } 
+            @media(max-width: 300px) 
+            { 
+                body { 
+                    background-color:blue ; 
+                } 
+            } 
+            @media(max-width: 100px ) 
+            { 
+                body{ 
+                    background-color: green ; 
+                } 
+            } 
+            @media(min-width: 310px ) and (max-width: 590px ) 
+            { 
+                body{ 
+                    background-color: red !important ; 
+                } 
+            } 
+            @keyframes youanimation{ 
+                0%{ 
+                    color: black ; 
+                    transform: translate(0, 0 ) ; 
+                    top: 0 ; 
+                    left: 0 ; 
+                } 
+                25%{ 
+                    color: orange ; 
+                    transform: translate(75, 0 ) ; 
+                    top: 120px ; 
+                    left: 100px ; 
+                } 
+                50%{ 
+                    color: green ; 
+                    transform: translate(100, 0 ) ; 
+                    top: 20px ; 
+                    left: 50px ; 
+                } 
+                75%{ 
+                    color: blue ; 
+                    transform: translate(25, 0 ) ; 
+                    top: 70px ; 
+                    left: 120px ; 
+                } 
+                100%{ 
+                    color: yellow ; 
+                    transform: translate(30, 60 ) ; 
+                    top: 50px ; 
+                    left: 70px ; 
+                } 
+            } 
+        </style> 
+    </head> 
+    <body> 
+        <nav> 
+            <div class="left-side-bar" > 
+                <div class="side-b">
+                    <p class="sidebar1">__</p> 
+                    <p class="sidebar2">__</p> 
+                    <p class="sidebar3">__</p> 
+                </div> 
+                <img class="youtube-logo" src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" height="29px" width="32px" alt="Youtube Image" > 
+               <div class="youtube-w"> 
+                    <p class="youtube">YouTube</p> 
+                </div> 
+                <p class="youtube-i">IN</p> 
+            </div> 
+            <div class="middle-side-bar" > 
+                <div class="search"> 
+                    <input type="text" class="search-bar" placeholder="Search" > 
+                </div> 
+                <div class="search-image"> 
+                    <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbcO0ns9caLKqMVenV8fAInrhy5JQdS3KNsA&s" height="67px" width="67px" alt="Search" > 
+                </div> 
+                <div class="search-mic-icon"> 
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/free-mic-icon-download-in-svg-png-gif-file-formats--audio-sound-recording-user-interface-pack-icons-1325560.png?f=webp&w=256" height="32px" width="32px" alt="Mic Icon" > 
+                </div> 
+            </div> 
+            <div class="right-side-bar"> 
+                <img style="margin:0 12px 5px 0 ;" src="https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/video-512.png" height="19px" width="19px" alt="Video" > 
+                <img style="margin: 0 2px 0 5px ; " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR5NNT9-V31hriLzACMhtUW3Xh_b5USGlLkw&s" height="32px" width="32px" alt="Bell Icon" > 
+                <img style="margin: 7px 15px 5px 12px ;" src="https://static-00.iconduck.com/assets.00/profile-circle-icon-512x512-zxne30hp.png" height="25px" width="25px" alt="Profile Icon" > 
+            </div> 
+        </nav> 
+        <aside class="side-line" >  
+            <span class="Home-Ic"> 
+                <img style="display: inline ; " src="https://static.vecteezy.com/system/resources/thumbnails/014/391/893/small/home-icon-isolated-on-transparent-background-black-symbol-for-your-design-free-png.png" height="27px" width="45px" alt="Home Icon" > 
+                <h4  style=" display: inline ; " class="Home-w">Home</h4> 
+            </span> 
+        </aside> 
+    </body> 
+</html> 
