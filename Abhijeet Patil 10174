@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ's</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+    button:hover{
+       color:red;
+    }
+
+     .heading{
+        display:flex;
+        justify-content:center;
+        color:green;
+    }
+    .heading:hover{
+      background-color: blueviolet;
+    }
+    .accordion-collapse:hover{
+     color:rgb(255, 0, 153);
+    }
+
+    body{
+        border:5px solid rgb(50, 137, 151);
+    }
+     </style>
+</head>
+<body>
+    <div class="logo" >
+        <a href="https://scaler-blog-prod-wp-content.s3.ap-south-1.amazonaws.com/wp-content/uploads/2021/04/22114217/74797539_118431542933200_2322441253926469632_o.png"></a>
+    </div>
+    <div class="heading "> <h1>Admission FAQ's</h1></div>
+   
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              #1  Will I be able to pursue a master's degree later, take competitive exams or apply for a visa later? 
+             </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">   Formal degrees from reputed universities will enable our students to be eligible for the following,
+                Masters outside India via exams like GRE
+                Getting a work visa for migrating abroad
+                MBA in India and abroad via exams like CAT & GMAT
+                Government Jobs like IAS, IPS via exams like UPSC.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                #2 What Financing options are available for paying Admission fees if I get selected?
+               
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"> We provide several financing options basis your needs and background through partnerships with Banks and NBFCs. If you want to know more, we recommend giving a missed call to our customer support team. Our dedicated team will promptly reach out to you and provide assistance in resolving the issue.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+             #3 How can I apply for scholarships?
+         </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">The scholarship application process consists of the following steps:
+
+                1. Screening: Applicants are evaluated based on their academic performance, NSET scores, and a recorded personal interview.
+                2. Document Submission: Candidates need to submit the required supporting documents based on the specific category of scholarship they are applying for.
+                3. Sponsor's Assessment: Once the applicant's profile, including the recorded personal interview, statement of purpose (SOP), and supporting documents, is complete, it is shared with potential sponsors. We match your profile with sponsors whose criteria align with your qualifications. In some cases, a one-on-one meeting between the sponsor and the candidate may be arranged upon request.
+                4. Results: The sponsors announce the final decisions regarding the scholarship recipients. The chosen candidates are informed about the outcome of their applications.
+                
+                It's important to note that students who are awarded scholarships are typically expected to maintain a minimum CGPA requirement to continue receiving the scholarship in subsequent years. This ensures that recipients remain focused on their academic progress while benefiting from the financial support provided by the scholarship program.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThreer" aria-expanded="false" aria-controls="flush-collapseThree">
+               #4 Is this a Fully Residential Program?
+  
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Yes, the Computer Science programme at the Scaler School of Technology is a full-time on-campus program. The campus is located in the heart of the silicon valley of India, Bangalore. Being situated amidst numerous tech companies, the campus provides students with a unique advantage of being in close proximity to the tech industry.
+
+                The campus's strategic location ensures that students are constantly exposed to the dynamic tech ecosystem. They can witness the latest innovations and advancements happening in nearby tech companies. This exposure helps students stay updated with emerging technologies, industry trends, and best practices, giving them a competitive edge in their careers.
+                
+                Get a glimpse of our state-of-the-art facilities, hostel amenities, and vibrant campus community.
+                We invite you to take a few minutes to watch this video and discover for yourself what makes Scaler School of Technology such a unique and inspiring place to learn.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+               #5 What is the eligibility criteria for Scaler School of Technology?
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                The Scaler School of Technology welcomes students who have completed their Class XII exams in 2024 or earlier, provided they are under the age of 20. This age limit allows us to focus on delivering a tailored educational experience for young individuals who are at a critical stage in their academic journey.
+                Admission offers are contingent upon having mathematics as a subject in XII and achieving a mathematics score of above 60%, along with passing XII finals.
+                To apply for the program at Scaler School of Technology, please visit our official website at: https://www.scaler.com/school-of-technology/
+                  
+                  It's important to note that students who are awarded scholarships are typically expected to maintain a minimum CGPA requirement to continue receiving the scholarship in subsequent years. This ensures that recipients remain focused on their academic progress while benefiting from the financial support provided by the scholarship program.</div>
+            </div>
+          </div>
+          
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+               #6 What makes SST's undergraduate program stand out as one of the best in the country?
+
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                When selecting a program, it's crucial to consider various factors. At Scaler, we prioritize the three most essential aspects: learning outcomes, the quality of instructors, and career outcomes.
+                Our program is designed to ensure that every learner graduates with a skill set equivalent to that of a Senior Engineer/SDE-II, along with more than a year of industry experience.
+                
+                We achieve this through a comprehensive curriculum divided into three phases:
+                Initial 2 Years, where you learn and master fundamentals of DSA, Fullstack, Shell, and Frontend & work on soft Skills
+                Next 1 Year, where you will be doing a 1-Year Industry Internship at a Top Tech Company & receive a Pre placement offer at the end of the internship.
+                Final 1 Year, where you will specialize in high-demand fields like AI/ ML / Algo Trading & bag placement offers from Tech Giants
+                
+                At Scaler, we understand the importance of learning from the best. That's why our instructors include industry veterans who have successfully built products at renowned companies like Facebook, Amazon, Zomato & more
+                
+                Alongside these experienced professionals, our students receive personalized guidance through 1:1 sessions and comprehensive career support.
+                Moreover, our vast network of 900+ career partners ensures that our students have access to a wide range of job opportunities across various industries.
+                
+                To truly understand how our program stands out, we invite you to hear from our director
+   </div>
+            </div>
+          </div>
+      </div>
+</body>
+</html>
