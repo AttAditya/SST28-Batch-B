@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Pricing Page</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .pricing-header {
+            color: red;
+            text-align: center;
+            margin-top: 30px;
+        }
+        .card h2 {
+            color: gold;
+        }
+        .price {
+            font-size: 24px;
+            color: green;
+            margin-bottom: 15px;
+        }
+        .card {
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="pricing-header">NETFLIX Pricing Page</h1>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card text-center mb-4">
+                    <div class="card-body">
+                        <h2 class="card-title">Gold</h2>
+                        <div class="price">2.5$<small>/month</small></div>
+                        <ul class="list-unstyled">
+                            <li>Unlimited ad-free movies, TV shows, and mobile games</li>
+                            <li>Watch on 1 supported device at a time</li>
+                            <li>Watch in 720p (HD)</li>
+                            <li>Download on 1 supported device at a time</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Subscribe Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center mb-4">
+                    <div class="card-body">
+                        <h2 class="card-title">Standard</h2>
+                        <div class="price">6.25$<small>/month</small></div>
+                        <ul class="list-unstyled">
+                            <li>Unlimited ad-free movies, TV shows, and mobile games</li>
+                            <li>Watch on 2 supported devices at a time</li>
+                            <li>Watch in 1080p (Full HD)</li>
+                            <li>Download on 2 supported devices at a time</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Subscribe Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center mb-4">
+                    <div class="card-body">
+                        <h2 class="card-title">Premium</h2>
+                        <div class="price">8.11$<small>/month</small></div>
+                        <ul class="list-unstyled">
+                            <li>Unlimited ad-free movies, TV shows, and mobile games</li>
+                            <li>Watch on 4 supported devices at a time</li>
+                            <li>Watch in 4K (Ultra HD) + HDR</li>
+                            <li>Download on 6 supported devices at a time</li>
+                            <li>Netflix spatial audio</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Subscribe Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
