@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .gallery img {
+            max-width: 40vh;
+            height: 25vh;
+            filter:grayscale(100%);
+            transition: 0.2s linear;
+        }
+        
+        .gallery img:hover{
+            filter:grayscale(0%);
+            scale:1.1;
+        }
+        
+        .gallery-item {
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        a{
+            color:black;
+            transition: 0.1s linear;
+        }
+
+        a:hover{
+            color:blue;
+        }
+        
+    </style>
+</head>
+<body>
+
+<div class="container my-4 border border-dark rounded p-3">
+    <h1 class="text-center p-3">Image Gallery</h1>
+    
+    <div class="row gallery" >
+        <div class="col-md-4 gallery-item">
+            <img src="image1.jpeg" class="img-fluid rounded" alt="Image 1">
+            <a href="image1.jpeg" class="text-center d-flex text-decoration-none">Image 1</a>
+        </div>
+        <div class="col-md-4 gallery-item">
+            <img src="image2.jpeg" class="img-fluid rounded" alt="Image 2">
+            <a href="image2.jpeg" class="text-center d-flex text-decoration-none">Image 2</a>
+        </div>
+        <div class="col-md-4 gallery-item">
+            <img src="image3.jpeg" class="img-fluid rounded" alt="Image 3">
+            <a href="image3.jpeg" class="text-center d-flex text-decoration-none">Image 3</a>
+        </div>
+
+        <div class="col-md-4 gallery-item">
+            <img src="image4.jpeg" class="img-fluid rounded" alt="Image 3">
+            <a href="image4.jpeg" class="text-center d-flex text-decoration-none">Image 4</a>
+        </div>
+
+        <div class="col-md-4 gallery-item">
+            <img src="image5.jpeg" class="img-fluid rounded" alt="Image 3">
+            <a href="image5.jpeg" class="text-center d-flex text-decoration-none">Image 5</a>
+        </div>
+
+        <div class="col-md-4 gallery-item">
+            <img src="image6.jpeg" class="img-fluid rounded" alt="Image 3">
+            <a href="image6.jpeg" class="text-center d-flex text-decoration-none">Image 6</a>
+        </div>
+        
+        <div class="col-md-4 gallery-item">
+            <img src="image7.jpeg" class="img-fluid rounded" alt="Image 3">
+            <a href="image7.jpeg" class="text-center d-flex text-decoration-none">Image 7</a>
+        </div>
+        
+        <div class="col-md-4 gallery-item">
+            <img src="image8.jpeg" class="img-fluid rounded" alt="Image 3">
+            <a href="image8.jpeg" class="text-center d-flex text-decoration-none">Image 8</a>
+        </div>
+
+        <div class="col-md-4 gallery-item">
+            <img src="image9.jpeg" class="img-fluid rounded" alt="Image 3">
+            <a href="image9.jpeg" class="text-center d-flex text-decoration-none">Image 9</a>
+        </div>
+
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
