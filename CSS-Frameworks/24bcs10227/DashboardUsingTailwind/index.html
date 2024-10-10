@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex flex-row overflow-hidden">
+    <div
+      class="w-48 bg-slate-900 h-screen text-white py-6 flex flex-col gap-20"
+    >
+      <div
+        class="w-fit font-bold border-solid border-white border-2 py-2 px-4 rounded-sm mx-auto"
+      >
+        Dashboard
+      </div>
+
+      <div class="flex flex-col gap-32 w-fit py-6 px-10 text-md">
+        <ul class="flex flex-col gap-6">
+          <li class="underline underline-offset-4">Overview</li>
+          <li>Growth</li>
+          <li>Customers</li>
+          <li>Reports</li>
+          <li>Support</li>
+          <li>Settings</li>
+        </ul>
+        <ul>
+          <li>Log out</li>
+        </ul>
+      </div>
+    </div>
+    <main class="flex flex-col flex-1 h-screen w-full">
+      <div class="h-24 w-full flex flex-row justify-between items-center px-8">
+        <h1 class="text-2xl font-bold">Overview</h1>
+        <input
+          type="text"
+          class="w-64 py-2 px-3 border-none focus-within:none outline-none bg-slate-200 rounded-md"
+          placeholder="Search"
+        />
+        <div class="">Ojas Maheshwari</div>
+      </div>
+      <div class="p-2 px-4 flex flex-row">
+        <!-- statistics -->
+        <div class="py-24">
+          <img src="bar-graph.png" alt="" />
+        </div>
+        <!-- table -->
+        <div class="px-8 py-24">
+          <div class="relative overflow-x-auto">
+            <table
+              class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400"
+            >
+              <thead
+                class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400"
+              >
+                <tr>
+                  <th scope="col" class="px-6 py-3">Customer</th>
+                  <th scope="col" class="px-6 py-3">Status</th>
+                  <th scope="col" class="px-6 py-3">Order No.</th>
+                  <th scope="col" class="px-6 py-3">Amount</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr
+                  class="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
+                >
+                  <th
+                    scope="row"
+                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                  >
+                    Jenny Wilson
+                  </th>
+                  <td class="px-6 py-4">New Customer</td>
+                  <td class="px-6 py-4">#737991</td>
+                  <td class="px-6 py-4">$200.34</td>
+                </tr>
+                <tr
+                  class="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
+                >
+                  <th
+                    scope="row"
+                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                  >
+                    Guy Hawkins
+                  </th>
+                  <td class="px-6 py-4">Signed Up</td>
+                  <td class="px-6 py-4">#348937</td>
+                  <td class="px-6 py-4">$187.26</td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800">
+                  <th
+                    scope="row"
+                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                  >
+                    Ralph Edwards
+                  </th>
+                  <td class="px-6 py-4">New Customer</td>
+                  <td class="px-6 py-4">#985488</td>
+                  <td class="px-6 py-4">$1023.28</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
