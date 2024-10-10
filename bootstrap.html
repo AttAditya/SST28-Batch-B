@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body{
+            background-color: rgb(193, 229, 242);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">hello</a></li>
+                                <li><a class="dropdown-item" href="#">that's it</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <h1>Our Menu</h1>
+        <div class="flex row">
+            <div class="card" style="width: 18rem;">
+                <img src="data:image/jpeg;base64,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"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Butter chicken</h5>
+                    <p class="card-text">Also known as murgh makhani, this dish is named for the high amounts of butter
+                        and yogurt used in the recipe.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSorNQP58NSK5ALctpHDc5yDmZ3rn6VtTak_VW7psaXqYWrvP6EETZEMzGRFB_m2DjoquzLQg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Biryani</h5>
+                    <p class="card-text">The word "biryani" comes from the Persian word "birinj", which means "rice".
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="data:image/jpeg;base64,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"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Masala dosa</h5>
+                    <p class="card-text">This dish is traditionally prepared in a tandoor, a high-heat oven.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQvJkWKP3eAr5z_ajluAxPZl6TPiOEKmv1fbEFEoHQ5Bd5VMnTR4W_otesKin8Q99R_6kp72Q"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Tandoori chicken</h5>
+                    <p class="card-text">A traditional dish from South India, made from a batter of soaked rice and
+                        black lentils.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>About Us</h1>
+        <p> Thalassery Cuisine
+
+            Thalassery Faloodha
+            Alternative names Thalassery biriyani or biriani (or biryani)
+            Course Main course
+            Place of origin India
+            Region or state Kerala
+            Created by Malabar variant
+            Main ingredients Kaima/Jeerakasala rice, chicken, spices
+            Food energy
+            (per serving) 250 kcal (1047 kJ)[1]
+            Other information Accompaniments:
+            raita, grated coconut, mint chutney, pickle
+            Media: Thalassery Cuisine
+            This article is part of the series on
+            Indian cuisine
+
+            Regional cuisines
+            Ingredients, types of food
+            Preparation, cooking
+            See also
+            Related cuisines
+            flag India portalicon Food portal
+            vte
+
+            Wikimedia Commons has media related to Malabar cuisine.
+            The Thalassery cuisine refers to the distinct cuisine from Thalassery city of northern Kerala, which has
+            blended in Arabian, Persian, Indian and European styles of cooking as a result of its long history as a
+            maritime trading post.
+
+            Thalassery is known for its Thalassery biryani[2] (in local dialect, biri-yaa-ni).[3] Unlike other biryani
+            dishes Thalassery biryani is made using kaima/jeerakasala, an Indian aromatic rice instead of the usual
+            basmati rice.[4]
+
+            Influences of Arabian and Mughal cultures are evident, especially in the dishes of the Muslim community,
+            though they have also become popular generally.[5]
+
+            Thalassery also occupies a special place in the modern history of Kerala as the pioneer of its bakery
+            industry, since the first bakery was started by Mambally Bapu in 1880 and the Western-style cakes were
+            introduced in 1883.</p>
+    </main>
+    <section>
+        <h1>Location</h1>
+        <a>Address: Urban banglore, 591,47/12 Ananda building velenkini road Front of sweet chariot cafe and Nandini
+            parlour shop Opp...bwsse, Velankani Drive, Electronics City Phase 1, Bengaluru, Karnataka 560100</a>
+    </section>
+    <footer>
+        <h1>Contact Us</h1>
+        <caption>Mobile No:-9876543209,4567876545</caption>
+    </footer>
+
+</body>
+
+</html>
