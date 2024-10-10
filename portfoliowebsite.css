@@ -1,0 +1,65 @@
+*{
+display:flex;
+flex-direction: column;
+}
+
+
+.CTA{
+   display:flex;
+
+}
+
+.CTA-headings{
+align-items: center;
+display:flex;
+background-color: #3f1e1e;
+color:white;
+border: #7399a8 solid 10px;
+border-radius: 19px;
+
+}
+.CTA-headings h2{
+
+  
+   
+}
+.CTA-details{
+
+    display:flex;
+
+    justify-content:space-evenly;
+    align-items:center;
+    background-color: #bc2c2c;
+    color:rgb(247, 228, 228);
+    border: #b5e53b solid 10px;
+    border-radius:19px;
+
+}
+   
+
+.CTA-info{
+    background-color: aqua;
+    color:white;
+    border: #b5e53b solid 10px;
+    border-radius: 19px;
+}
+.CTA-Actions{
+   
+}
+.CTA-button{
+
+    block-size: 100px;
+    width:100px;
+   
+}
+.image1{
+
+    display:flex;
+
+
+}
+.image2{
+   
+}
+
+
