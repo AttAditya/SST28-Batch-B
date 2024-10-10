@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.cta{
+display:flex;
+background-color: rgb(71, 37, 130);
+padding: 2rem;
+justify-content: space-evenly;
+align-items: center;
+}
+.cta_details{
+display: flex;
+flex-direction: column;
+}
+.cta-heading{
+    font-size:2rem;
+    color: #ccc;
+}
+.cta-action{
+    padding: 1rem;
+}
+.cta-info{
+    color: white;
+}
+.cta-button{
+    background-color: aquamarine;
+    padding:1rem;
+}
