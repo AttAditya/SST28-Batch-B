@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MizZ LalA</title>
+  <link rel="icon" href="/CSS/Project/pro-2(tailwind)/favicon-32x32.png" type="image/x-icon">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Add some smooth transition animations */
+    .transition-transform {
+      transition: transform 0.3s ease;
+    }
+
+    /* Hover effect for images */
+    .hover-scale:hover {
+      transform: scale(1.05);
+    }
+
+    /* Animation for form appearance */
+    .animate-form {
+      animation: fadeInUp 0.8s ease-out;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body class="bg-gray-50 font-sans leading-relaxed text-gray-900">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow">
+    <div class="container mx-auto flex justify-between items-center py-4">
+        <!-- Left section: Logo and Name -->
+        <div class="flex items-center space-x-2">
+            <img src="/CSS/Project/pro-2(tailwind)/logo.png" alt="logo" width="30px">
+            <a href="#" class="text-2xl font-extrabold text-indigo-600">MizZ LalA</a>
+        </div>
+        <!-- Right section: Navigation Links -->
+        <ul class="flex space-x-4">
+            <li><a href="#about" class="text-gray-700 hover:text-indigo-600 font-semibold">About Us</a></li>
+            <li><a href="#menu" class="text-gray-700 hover:text-indigo-600 font-semibold">Our Menu</a></li>
+            <li><a href="#location" class="text-gray-700 hover:text-indigo-600 font-semibold">Location</a></li>
+            <li><a href="#contact" class="text-gray-700 hover:text-indigo-600 font-semibold">Contact Us</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+  <!-- Hero Section -->
+  <header class="bg-indigo-600 text-white text-center py-20">
+    <h1 class="text-5xl font-bold tracking-tight">Welcome to Our Restaurant</h1>
+    <p class="mt-4 text-lg italic">Enjoy the best dishes in town, made with love and passion!</p>
+  </header>
+
+  <!-- About Us -->
+  <section id="about" class="container mx-auto py-16 text-center">
+    <h2 class="text-2xl font-semibold text-indigo-600">About Us</h2>
+    <p class="mt-4 text-lg font-light italic text-gray-600">Our restaurant offers a unique dining experience with carefully crafted dishes made from the finest ingredients.</p>
+    
+   <!-- Restaurant Image -->
+<div class="mt-8">
+    <img src="/CSS/Project/pro-2(tailwind)/res2.jpg" alt="Restaurant" class="w-full md:w-2/3 mx-auto rounded-lg shadow-md hover-scale" style="height: calc(12rem + 5%);">
+  </div>
+  
+  
+    
+    <!-- Description of the restaurant -->
+    <p class="mt-6 text-xl font-medium text-gray-700 leading-relaxed">Our restaurant is designed to provide a cozy and elegant ambiance, perfect for family gatherings and special occasions. We take pride in creating a warm, welcoming environment that complements our delicious menu. <span class="italic text-indigo-600">Come and enjoy a memorable dining experience with us.</span></p>
+  </section>
+
+  <!-- Menu -->
+  <section id="menu" class="container mx-auto py-16">
+    <h2 class="text-2xl font-semibold text-center text-indigo-600">Our Menu</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+      <!-- Menu Card 1 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover-scale">
+        <img src="/CSS/Project/pro-2(tailwind)/dish.jpeg" alt="Dish 1" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-bold text-indigo-600">Dish 1</h3>
+          <div class="flex justify-between mt-2">
+            <span class="text-lg font-medium text-gray-600">A delicious dish with fresh ingredients</span>
+            <span class="text-gray-900 font-semibold">$15.00</span>
+          </div>
+        </div>
+      </div>
+      <!-- Menu Card 2 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover-scale">
+        <img src="/CSS/Project/pro-2(tailwind)/dish2.jpeg" alt="Dish 2" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-bold text-indigo-600">Dish 2</h3>
+          <div class="flex justify-between mt-2">
+            <span class="text-lg font-medium text-gray-600">A tasty meal for all occasions</span>
+            <span class="text-gray-900 font-semibold">$12.00</span>
+          </div>
+        </div>
+      </div>
+      <!-- Menu Card 3 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover-scale">
+        <img src="/CSS/Project/pro-2(tailwind)/dish3.jpeg" alt="Dish 3" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-bold text-indigo-600">Dish 3</h3>
+          <div class="flex justify-between mt-2">
+            <span class="text-lg font-medium text-gray-600">A hearty meal to satisfy your cravings</span>
+            <span class="text-gray-900 font-semibold">$18.00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location -->
+<section id="location" class="container mx-auto py-16 text-center">
+    <h2 class="text-2xl font-semibold text-indigo-600">Location</h2>
+    <p class="mt-4 text-lg font-light italic text-gray-600">Find us at 123 Food Street, City, Country.</p>
+    
+    <!-- Location Image -->
+    <div class="mt-8">
+      <img src="/CSS/Project/pro-2(tailwind)/location.jpeg" alt="Restaurant Location" class="w-full md:w-[55%] mx-auto rounded-lg shadow-md hover-scale">
+    </div>
+    
+    <!-- Location description -->
+    <p class="mt-6 text-xl font-medium text-gray-700 leading-relaxed">Conveniently located in the heart of the city, our restaurant is easily accessible by public transportation and offers ample parking. <span class="italic text-indigo-600">Visit us and enjoy a delightful dining experience!</span></p>
+  </section>
+  
+
+  <!-- Contact Us -->
+<section id="contact" class="container mx-auto py-16 bg-cover bg-center" style="background-image: url('/path-to-your-image.jpg');">
+    <h2 class="text-2xl font-semibold text-center text-indigo-600 mb-8">Contact Us</h2>
+    <form class="space-y-4 w-full max-w-lg mx-auto animate-form bg-white p-8 rounded-lg shadow-lg">
+      <div>
+        <label for="name" class="block text-gray-700 font-medium">Name</label>
+        <input type="text" id="name" class="w-full border border-gray-300 rounded p-2" required>
+      </div>
+      <div>
+        <label for="email" class="block text-gray-700 font-medium">Email</label>
+        <input type="email" id="email" class="w-full border border-gray-300 rounded p-2" required>
+      </div>
+      <div>
+        <label for="message" class="block text-gray-700 font-medium">Message</label>
+        <textarea id="message" class="w-full border border-gray-300 rounded p-2" rows="4" required></textarea>
+      </div>
+      <!-- Centered Submit Button -->
+      <div class="flex justify-center">
+        <button type="submit" class="bg-indigo-600 text-white py-2 px-4 rounded hover:bg-indigo-500 mx-auto">Submit</button>
+      </div>
+    </form>
+  </section>
+  
+  
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 MizZ LalA. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
